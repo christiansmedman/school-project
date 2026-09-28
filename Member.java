@@ -1,8 +1,7 @@
 package se.iths.christian.Bibliotekshanterare;
 
 /**
- En medlem i biblioteket. Modelleras som en record eftersom en medlem
- är oföränderlig data (id + namn) utan eget muterbart tillstånd.
+ En medlem i biblioteket. Modelleras som en record eftersom olika datatyper kan lagras.
  */
 public record Member(int id, String name) {
 
