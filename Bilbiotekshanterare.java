@@ -29,7 +29,7 @@ public class Bilbiotekshanterare {
             IO.println("Hej då!");
         }
 
-        private static void printMenu() {origin/main
+        private static void printMenu() 
             IO.println("""
                 
         ===== BIBLIOTEK =====
